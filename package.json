@@ -1,0 +1,13 @@
+{
+  "name": "mi-hotel-app-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema Full-Stack para gestión y reservas de hotel",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev"
+  },
+  "author": "Full-Stack Senior Dev",
+  "license": "ISC"
+}
